@@ -3,7 +3,7 @@
 An Arduino-based smart energy meter that measures AC voltage, current, active power, and energy consumption in real time, displaying all readings on a 20×4 I²C LCD.
 
 **Project:** Yearly Project 2024–2025  
-**School:** Instituti Harry Fultz, Tiranë  
+**School:** Instituti Harry T. Fultz, Tiranë  
 **Class:** 4-7 | Branch: Elektronikë & IT  
 **Student:** Bjornis Kaso  
 
@@ -199,5 +199,5 @@ smart-energy-meter/
 
 ## License
 
-Academic project — Instituto Harry Fultz, 2024–2025.  
+Academic project — Instituti Harry T. Fultz, 2024–2025.  
 May be used as a reference with attribution.
