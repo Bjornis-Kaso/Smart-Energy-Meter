@@ -4,7 +4,7 @@ All notable changes to the Smart Energy Meter project are documented here — fi
 
 ---
 
-## [Repository] - April 2025
+## [Repository] - April 2026
 
 ### Added
 - `README.md` — full project overview with hardware table, wiring, specs, schematics, and demo video links
