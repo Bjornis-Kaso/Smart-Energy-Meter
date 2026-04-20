@@ -2,11 +2,10 @@
 
 An Arduino-based smart energy meter that measures AC voltage, current, active power, and energy consumption in real time, displaying all readings on a 20×4 I²C LCD.
 
-**Project:** Projekt Vjetor 2024–2025  
+**Project:** Yearly Project 2024–2025  
 **School:** Instituti Harry Fultz, Tiranë  
 **Class:** 4-7 | Dega: Elektronikë  
 **Student:** Bjornis Kaso  
-**Supervisor:** MSc. Jurgen Metalla  
 
 ---
 
@@ -17,6 +16,8 @@ An Arduino-based smart energy meter that measures AC voltage, current, active po
 - [Hardware](#hardware)
 - [Wiring](#wiring)
 - [Software](#software)
+- [Schematics](#schematics)
+- [Demo Videos](#demo-videos)
 - [Calibration Results](#calibration-results)
 - [Specifications](#specifications)
 - [Project Structure](#project-structure)
@@ -85,6 +86,46 @@ This project implements a low-cost smart energy meter using an Arduino Uno. It r
 
 ---
 
+## Schematics
+
+Proteus simulation schematics showing the circuit evolution across versions:
+
+| V1 — Initial schematic | V1 — Simulation running |
+|------------------------|------------------------|
+| ![V1 schematic](media/schematics/V1_schematic_initial.png) | ![V1 running](media/schematics/V1_simulation_running.png) |
+
+| V2 — I²C bridge circuit | V2 — Final simulation |
+|-------------------------|-----------------------|
+| ![V2 schematic](media/schematics/V2_schematic_I2C_bridge.png) | ![V2 final](media/schematics/V2_simulation_final.png) |
+
+---
+
+## Hardware Photos
+
+| Component | Photo |
+|-----------|-------|
+| Arduino Uno board | ![Arduino](media/hardware/arduino_uno_board.jpg) |
+| 20×4 LCD module | ![LCD](media/hardware/lcd_20x4_module.jpg) |
+| Voltage divider circuit | ![Divider](media/hardware/voltage_divider_circuit.jpg) |
+| Transformer enclosure | ![Transformer](media/hardware/transformer_enclosure.jpg) |
+| Live LCD reading | ![Live](media/hardware/LCD_display_live_reading.jpg) |
+
+---
+
+## Demo Videos
+
+📁 **[View all demo videos on Google Drive](https://drive.google.com/drive/folders/1k67Zs15q0S1eY8mxYWHuzUgEktoVgEQ9?usp=sharing)**
+
+| File | Description |
+|------|-------------|
+| `demo_simulation_proteus.mp4` | Proteus simulation of the full circuit running |
+| `demo_V1_first_power_up.mp4` | First time powering up the V1 hardware prototype |
+| `demo_V1_hairdryer_modes.mp4` | Testing V1 with a 2000W hairdryer as load |
+| `demo_V1_Soldering_iron.mp4` | Testing V1 measuring a soldering iron |
+| `demo_V2_final_prototype_comparison.mp4` | V2 final prototype compared against reference instrument |
+
+---
+
 ## Calibration Results
 
 Calibration was performed using the **comparison method** against a reference instrument (Mo) on 10 measurement points across the 224 V – 232 V range.
@@ -127,16 +168,20 @@ Full calibration data and charts are in the [`calibration/`](calibration/) folde
 ```
 smart-energy-meter/
 ├── README.md
+├── CHANGELOG.md
 ├── src/
-│   ├── V1.ino                  # Prototype firmware
-│   └── elektronika_V2.ino      # Production firmware (latest)
+│   ├── V1.ino                        # Prototype firmware
+│   └── elektronika_V2.ino            # Production firmware (latest)
 ├── simulation/
-│   └── Simulimi_kodi.ino       # Simulation / Tinkercad version
+│   └── Simulimi_kodi.ino             # Simulation / Tinkercad version
 ├── calibration/
-│   ├── calibration_sheet.md    # Calibration data & analysis
-│   └── data.csv                # Raw measurement data
+│   ├── calibration_sheet.md          # Calibration data & analysis
+│   └── data.csv                      # Raw measurement data
+├── media/
+│   ├── schematics/                   # Proteus circuit screenshots
+│   └── hardware/                     # Real hardware photos
 └── docs/
-    └── project_report.md       # Full project documentation
+    └── project_report.md             # Full project documentation
 ```
 
 ---
