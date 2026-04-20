@@ -1,9 +1,7 @@
 # Calibration Sheet — Fletë Kalibrimi V4
 
-**Method:** Comparison calibration (Metoda e kalibrimit me krahasim)  
-**Date:** 21.03.2025  
-**Class/Group:** 4-7  
-**Supervisor:** Jurgen Metalla  
+**Method:** Comparison calibration  
+**Date:** 21.03.2025
 **Lead:** Bjornis Kaso  
 **School:** Instituti Harry Fultz  
 
