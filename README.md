@@ -4,7 +4,7 @@ An Arduino-based smart energy meter that measures AC voltage, current, active po
 
 **Project:** Yearly Project 2024–2025  
 **School:** Instituti Harry Fultz, Tiranë  
-**Class:** 4-7 | Dega: Elektronikë  
+**Class:** 4-7 | Branch: Elektronikë & IT  
 **Student:** Bjornis Kaso  
 
 ---
